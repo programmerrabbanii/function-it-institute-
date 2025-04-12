@@ -12,16 +12,22 @@ const About = () => {
         
         {/* Left: Image Section */}
         <motion.div
-          initial={{ opacity: 0, x: -50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7 }}
-        >
-          <img
-            src={logoAbout}
-            alt="About Function IT Institute"
-            className="w-full rounded-2xl shadow-xl"
-          />
-        </motion.div>
+  initial={{ opacity: 0, x: -50 }}
+  whileInView={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.7 }}
+>
+  <iframe
+    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FFunctionITinstitute%2Fvideos%2F582739304076948%2F&show_text=false&width=476&t=0"
+    width="100%"
+    height="400"
+    style={{ border: "none", overflow: "hidden" }}
+    scrolling="no"
+    frameBorder="0"
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    allowFullScreen={true}
+  ></iframe>
+</motion.div>
+
 
         {/* Right: Text Content */}
         <motion.div
