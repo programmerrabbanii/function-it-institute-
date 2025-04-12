@@ -76,7 +76,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             to="/contact"
-            className="flex items-center gap-2 bg-[#F15E16] text-white px-4 py-2 rounded-full hover:bg-[#d94f11] transition duration-300 text-lg font-semibold"
+            className="flex items-center gap-2  bg-gradient-to-r from-pink-500 to-yellow-400 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:opacity-90 transition duration-300"
           >
             <IoMdCall className="text-xl" />
             Contact

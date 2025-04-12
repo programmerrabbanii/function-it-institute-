@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import logoAbout from "../assets/99239075-522e-4b6d-9069-7405be6ac774-removebg-preview.png"
 import about from "../assets/Why-Digital-Marketing-is-Critical-to-Your-Organization-in-2017.avif";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -16,7 +17,7 @@ const About = () => {
           transition={{ duration: 0.7 }}
         >
           <img
-            src={about}
+            src={logoAbout}
             alt="About Function IT Institute"
             className="w-full rounded-2xl shadow-xl"
           />
