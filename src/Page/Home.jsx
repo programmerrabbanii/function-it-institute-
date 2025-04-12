@@ -3,6 +3,7 @@ import Bannar from '../Components/Bannar';
 import About from '../Components/About';
 import SuccessStory from '../Components/SuccessStory';
 import Targeted from '../Components/Targeted';
+import SupportTeam from '../Components/SupportTeam';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <About></About>
             <SuccessStory></SuccessStory>
             <Targeted></Targeted>
+            <SupportTeam></SupportTeam>
         </div>
     );
 };
