@@ -4,6 +4,7 @@ import About from '../Components/About';
 import SuccessStory from '../Components/SuccessStory';
 import Targeted from '../Components/Targeted';
 import SupportTeam from '../Components/SupportTeam';
+import FAQ from '../Components/FAQ';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <SuccessStory></SuccessStory>
             <Targeted></Targeted>
             <SupportTeam></SupportTeam>
+            <FAQ></FAQ>
         </div>
     );
 };
