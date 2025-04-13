@@ -5,6 +5,7 @@ import SuccessStory from '../Components/SuccessStory';
 import Targeted from '../Components/Targeted';
 import SupportTeam from '../Components/SupportTeam';
 import FAQ from '../Components/FAQ';
+import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Targeted></Targeted>
             <SupportTeam></SupportTeam>
             <FAQ></FAQ>
+            <Footer></Footer>
         </div>
     );
 };
