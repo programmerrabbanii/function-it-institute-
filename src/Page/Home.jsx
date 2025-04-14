@@ -6,6 +6,8 @@ import Targeted from '../Components/Targeted';
 import SupportTeam from '../Components/SupportTeam';
 import FAQ from '../Components/FAQ';
 import Footer from '../Components/Footer';
+import Courses from './Courses';
+import Coursess from '../Components/Coursess';
 
 const Home = () => {
     return (
@@ -13,6 +15,7 @@ const Home = () => {
             <Bannar></Bannar>
             <About></About>
             <SuccessStory></SuccessStory>
+            <Coursess></Coursess>
             <Targeted></Targeted>
             <SupportTeam></SupportTeam>
             <FAQ></FAQ>
