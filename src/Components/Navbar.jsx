@@ -11,7 +11,6 @@ const Navbar = () => {
         { to: "/courses", label: "Courses" },
         { to: "/about", label: "About" },
         { to: "/contact", label: "Contact" },
-        { to: "/support", label: "Support" },
       ].map(({ to, label }, index) => (
         <li key={index}>
           <NavLink
@@ -26,6 +25,18 @@ const Navbar = () => {
           </NavLink>
         </li>
       ))}
+
+      {/* External Facebook Support Link */}
+      <li>
+        <a
+          href="https://www.facebook.com/groups/functionitinstitute"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-gray-700 text-lg font-medium hover:text-[#0ea5e9] hover:border-b-2 hover:border-[#0ea5e9] pb-1 transition duration-300"
+        >
+          Community
+        </a>
+      </li>
     </>
   );
 
@@ -76,7 +87,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <Link
             to="/contact"
-            className="flex items-center gap-2  bg-gradient-to-r from-pink-500 to-yellow-400 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:opacity-90 transition duration-300"
+            className="flex items-center gap-2 bg-gradient-to-r from-pink-500 to-yellow-400 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:opacity-90 transition duration-300"
           >
             <IoMdCall className="text-xl" />
             Contact

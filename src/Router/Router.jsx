@@ -24,7 +24,7 @@ const router=createBrowserRouter([
                element:<AboutUs></AboutUs> 
             },
             {
-                path:"/support",
+                path:"/https://www.facebook.com/groups/functionitinstitute",
                 element:<Support></Support>
             },
             {
